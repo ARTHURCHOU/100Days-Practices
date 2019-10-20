@@ -46,3 +46,22 @@ Translate to Chinese:
 如果某个实现能难去解释，那么它是个坏主意。
 如果某个实现很好去解释，那么它可能是个好主意。
 命名空间是个伟大的想法————让我们做更多这样的事情！
+
+Practice 2
+
+    import turtle
+
+    turtle.pensize(4)
+    turtle.pencolor('red')
+
+    turtle.forward(100)
+    turtle.right(90)
+    turtle.forward(100)
+    turtle.right(90)
+    turtle.forward(100)
+    turtle.right(90)
+    turtle.forward(100)
+
+    turtle.mainloop()
+
+Result: 

@@ -65,5 +65,4 @@ Practice 2
     turtle.mainloop()
 
 Result: 
-[image text]!
-(http://github.com/ARTHURCHOU/100Days-Practices/raw/master/DAY1Result2.png)
+![image text](http://github.com/ARTHURCHOU/100Days-Practices/raw/master/DAY1Result2.png)

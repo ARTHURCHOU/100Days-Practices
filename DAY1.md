@@ -1,9 +1,10 @@
 # Fisrt Day to follow the 'Python-100-Days' practice
-Practice1
+*Practice1*
 
     import this
     
-Result:
+*Result:*
+
 The Zen of Python, by Tim Peters
 
 Beautiful is better than ugly.
@@ -26,7 +27,8 @@ If the implementation is hard to explain, it's a bad idea.
 If the implementation is easy to explain, it may be a good idea.
 Namespaces are one honking great idea -- let's do more of those!
 
-Translate to Chinese:
+*Translate to Chinese:*
+
 美丽比丑陋更好。
 明确比影式更好。
 简单比复杂更好。
@@ -47,7 +49,7 @@ Translate to Chinese:
 如果某个实现很好去解释，那么它可能是个好主意。
 命名空间是个伟大的想法————让我们做更多这样的事情！
 
-Practice 2
+*Practice 2*
 
     import turtle
 
@@ -64,5 +66,6 @@ Practice 2
 
     turtle.mainloop()
 
-Result: 
+*Result: *
+
 ![image text](http://github.com/ARTHURCHOU/100Days-Practices/raw/master/DAY1Result2.png)

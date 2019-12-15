@@ -19,4 +19,26 @@ Result:
 
 ![](https://github.com/ARTHURCHOU/100Days-Practices/blob/master/png1.png)
 
+For the spread of each variable, calculate the variance of each variable
 
+Use the code: 
+    
+    var(data$RedMeat)…
+
+![](https://github.com/ARTHURCHOU/100Days-Practices/blob/master/png2.png)
+
+***(b)	For each variable, plot the data in a suitable way to illustrate the level and the spread.
+
+![](https://github.com/ARTHURCHOU/100Days-Practices/blob/master/png3.png)
+
+***(c)	Calculate a summary statistic to show the association of the consumption of fruit and vegetables with each of the other food categories.
+
+    cor_pearson <- cor(subdata$Fr.Veg, subdata[1:8],method = 'pearson')
+    print(cor_pearson)
+
+Result:
+
+![](https://github.com/ARTHURCHOU/100Days-Practices/blob/master/png4.png)
+
+
+***(d)	Show a plot illustrating the association of the consumption of fruit and vegetables with each of the other food categories. 

@@ -3,7 +3,7 @@
 
 #### Exploratory data Analysis:
 
-***(a) For each variable, calculate appropriate summary statistics to show the level and spread of the data (one statistic for each is enough).***
+***(a)***
 
 For the level of each variable, calculate the mean of each variable 
 
@@ -24,23 +24,18 @@ For the spread of each variable, calculate the variance of each variable
 
 Use the code: 
     
-    var(data$RedMeat)
-    var(data$WhiteMeat)
-    var(data$Eggs)
-    var(data$Milk)
-    var(data$Fish)
-    var(data$Cereals)
-    var(data$Starch)
-    var(data$Nuts)
-    var(data$Fr.Veg)
+    for (i in (1:9))
+        print(var(subdata[i])) 
 
 ![](https://github.com/ARTHURCHOU/100Days-Practices/blob/master/png2.png)
 
-***(b)	For each variable, plot the data in a suitable way to illustrate the level and the spread.***
+***(b)***
+
+Boxplot is a good way to show the level and spread of data at the same time. By observing the three quartiles of the data set, you can roughly get the overall situation of the data.
 
 ![](https://github.com/ARTHURCHOU/100Days-Practices/blob/master/png3.png)
 
-***(c)	Calculate a summary statistic to show the association of the consumption of fruit and vegetables with each of the other food categories.***
+***(c)***
 
     cor_pearson <- cor(subdata$Fr.Veg, subdata[1:8],method = 'pearson')
     print(cor_pearson)
@@ -50,16 +45,30 @@ Result:
 ![](https://github.com/ARTHURCHOU/100Days-Practices/blob/master/png4.png)
 
 
-***(d)	Show a plot illustrating the association of the consumption of fruit and vegetables with each of the other food categories.***
+***(d)***
 
-<center class="half">
+According to this chart, it can be seen that there is a weak negative correlation between fruits and vegetables and red meat, white meat, eggs, and milk, and a weak positive correlation with fish, cereals, starch, and nuts. The correlation between milk and fruits and vegetables is the highest, which is -0.4084
+
+<center>
     <img src="https://github.com/ARTHURCHOU/100Days-Practices/blob/master/png5.png" width="300"/>
-    <img src="https://github.com/ARTHURCHOU/100Days-Practices/blob/master/png6.png" width="300"/>
 </center>
 
-<center class="half">
-    <img src="https://github.com/ARTHURCHOU/100Days-Practices/blob/master/png7.png" width="300"/>
-    <img src="https://github.com/ARTHURCHOU/100Days-Practices/blob/master/png6.png" width="300"/>
-</center>
+####Inference:
+
+***(e)***
+
+    for (i in (1:9))
+        print(t.test(subdata[i]))
+        
+Categories |95 percent confidence interval
+Redmeat |8.446394-11.209606
+WhiteMeat |6.371158-9.420842
+Eggs |2.474671-3.397329
+Milk |14.17903-20.04497
+Fish |2.879503-5.688497
+Cereals |27.71783 36.77817
+Starch |3.601483 4.950517
+Nuts |2.252351 3.891649
+Fr.Veg |3.391385 4.880615
 
 

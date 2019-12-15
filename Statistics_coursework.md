@@ -17,6 +17,6 @@ Use the code:
 
 Result:
 
-
+![](https://github.com/ARTHURCHOU/100Days-Practices/blob/master/png1.png)
 
 

@@ -52,6 +52,8 @@ Result:
 
 ***(d)	Show a plot illustrating the association of the consumption of fruit and vegetables with each of the other food categories.***
 
-<img src="https://github.com/ARTHURCHOU/100Days-Practices/blob/master/png5.png" width="300"/>
-<img src="https://github.com/ARTHURCHOU/100Days-Practices/blob/master/png6.png" width="300"/>
-<img src="https://github.com/ARTHURCHOU/100Days-Practices/blob/master/png7.png" width="300"/>
+<figure class="third">
+    <img src="https://github.com/ARTHURCHOU/100Days-Practices/blob/master/png5.png" width="300"/>
+    <img src="https://github.com/ARTHURCHOU/100Days-Practices/blob/master/png6.png" width="300"/>
+    <img src="https://github.com/ARTHURCHOU/100Days-Practices/blob/master/png7.png" width="300"/>
+</figure>

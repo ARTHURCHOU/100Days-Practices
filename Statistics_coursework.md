@@ -1,6 +1,5 @@
 # Statistics for Data Analysis Coursework
-## Question 1   The file protein.csv contains data from several European countries in the 1980s on consumption of different categories of food.
-
+## Question 1
 #### Exploratory data Analysis:
 
 ***(a)***
@@ -49,9 +48,7 @@ Result:
 
 According to this chart, it can be seen that there is a weak negative correlation between fruits and vegetables and red meat, white meat, eggs, and milk, and a weak positive correlation with fish, cereals, starch, and nuts. The correlation between milk and fruits and vegetables is the highest, which is -0.4084
 
-<center>
-    <img src="https://github.com/ARTHURCHOU/100Days-Practices/blob/master/png5.png" width="300"/>
-</center>
+![](https://github.com/ARTHURCHOU/100Days-Practices/blob/master/png5.png)
 
 #### Inference:
 
@@ -76,7 +73,9 @@ Fr.Veg | 3.391385 4.880615
 
     t.test(subdata$Starch, subdata$Nuts,
  	      alternative = 'greater',mu=0)
+          
+![](https://github.com/ARTHURCHOU/100Days-Practices/blob/master/png6.png)\
 
-<center>
-    <img src="https://github.com/ARTHURCHOU/100Days-Practices/blob/master/png6.png" width="300"/>
-</center>
+From the results of the t-test, the p-value is 0.0118, which is less than 0.05, so the hypothesis (the average consumption of starch is larger than the average consumption of nuts) does not hold.
+
+## Question 2

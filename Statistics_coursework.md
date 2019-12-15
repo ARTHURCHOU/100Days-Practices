@@ -23,15 +23,23 @@ For the spread of each variable, calculate the variance of each variable
 
 Use the code: 
     
-    var(data$RedMeat)…
+    var(data$RedMeat)
+    var(data$WhiteMeat)
+    var(data$Eggs)
+    var(data$Milk)
+    var(data$Fish)
+    var(data$Cereals)
+    var(data$Starch)
+    var(data$Nuts)
+    var(data$Fr.Veg)
 
 ![](https://github.com/ARTHURCHOU/100Days-Practices/blob/master/png2.png)
 
-***(b)	For each variable, plot the data in a suitable way to illustrate the level and the spread.
+***(b)	For each variable, plot the data in a suitable way to illustrate the level and the spread.***
 
 ![](https://github.com/ARTHURCHOU/100Days-Practices/blob/master/png3.png)
 
-***(c)	Calculate a summary statistic to show the association of the consumption of fruit and vegetables with each of the other food categories.
+***(c)	Calculate a summary statistic to show the association of the consumption of fruit and vegetables with each of the other food categories.***
 
     cor_pearson <- cor(subdata$Fr.Veg, subdata[1:8],method = 'pearson')
     print(cor_pearson)
@@ -41,4 +49,4 @@ Result:
 ![](https://github.com/ARTHURCHOU/100Days-Practices/blob/master/png4.png)
 
 
-***(d)	Show a plot illustrating the association of the consumption of fruit and vegetables with each of the other food categories. 
+***(d)	Show a plot illustrating the association of the consumption of fruit and vegetables with each of the other food categories.***

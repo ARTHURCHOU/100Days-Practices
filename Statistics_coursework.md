@@ -61,6 +61,7 @@ According to this chart, it can be seen that there is a weak negative correlatio
         print(t.test(subdata[i]))
         
 Categories | 95 percent confidence interval
+:-: | :-: 
 Redmeat | 8.446394-11.209606
 WhiteMeat | 6.371158-9.420842
 Eggs | 2.474671-3.397329

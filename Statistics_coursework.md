@@ -2,12 +2,8 @@
 ## Question 1
 #### Exploratory data Analysis:
 
-***(a)***
+***(a)*** For the level of each variable, calculate the mean of each variable 
 
-For the level of each variable, calculate the mean of each variable 
-
-Use the code:
-    
     getwd()
     setwd("C:/Users/zsw00/Desktop")
     data<-read.csv('protein.csv', header = TRUE)
@@ -19,9 +15,7 @@ Result:
 
 ![](https://github.com/ARTHURCHOU/100Days-Practices/blob/master/png1.png)
 
-For the spread of each variable, calculate the variance of each variable
-
-Use the code: 
+For the spread of each variable, calculate the variance of each variable 
     
     for (i in (1:9))
         print(var(subdata[i])) 
@@ -79,3 +73,20 @@ Fr.Veg | 3.391385 4.880615
 From the results of the t-test, the p-value is 0.0118, which is less than 0.05, so the hypothesis (the average consumption of starch is larger than the average consumption of nuts) does not hold.
 
 ## Question 2
+### Exploratory Data Analysis:
+***(a)***
+
+Variables | Scaling
+:-: | :-: 
+Name |  Nominal scale
+Length | Continuous Numerical Scale
+Width | Continuous Numerical Scale
+Thickness | Continuous Numerical Scale
+B.Width | Continuous Numerical Scale
+J.Width | Continuous Numerical Scale
+H.Length | Continuous Numerical Scale
+Blade.Sh | Nominal Scale
+Base.Sh | Nominal Scale
+Should.Sh | Nominal Scale
+Haft.Sh | Nominal Scale
+Haft.Or | Nominal Scale

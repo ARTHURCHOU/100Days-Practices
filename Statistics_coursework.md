@@ -9,6 +9,9 @@ For the level of each variable, calculate the mean of each variable
 
 Use the code:
     
+    getwd()
+    setwd("C:/Users/zsw00/Desktop")
+    data<-read.csv('protein.csv', header = TRUE)
     subdata <- data[2:10]
     mean_col <- colMeans(subdata)
     print(mean_col)

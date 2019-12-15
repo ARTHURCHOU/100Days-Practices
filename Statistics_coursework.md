@@ -53,7 +53,7 @@ According to this chart, it can be seen that there is a weak negative correlatio
     <img src="https://github.com/ARTHURCHOU/100Days-Practices/blob/master/png5.png" width="300"/>
 </center>
 
-####Inference:
+#### Inference:
 
 ***(e)***
 
@@ -72,4 +72,11 @@ Starch | 3.601483 4.950517
 Nuts | 2.252351 3.891649
 Fr.Veg | 3.391385 4.880615
 
+***(f)***
 
+    t.test(subdata$Starch, subdata$Nuts,
+ 	      alternative = 'greater',mu=0)
+
+<center>
+    <img src="https://github.com/ARTHURCHOU/100Days-Practices/blob/master/png6.png" width="300"/>
+</center>

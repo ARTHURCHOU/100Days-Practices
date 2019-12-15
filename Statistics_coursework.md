@@ -60,15 +60,15 @@ According to this chart, it can be seen that there is a weak negative correlatio
     for (i in (1:9))
         print(t.test(subdata[i]))
         
-Categories |95 percent confidence interval
-Redmeat |8.446394-11.209606
-WhiteMeat |6.371158-9.420842
-Eggs |2.474671-3.397329
-Milk |14.17903-20.04497
-Fish |2.879503-5.688497
-Cereals |27.71783 36.77817
-Starch |3.601483 4.950517
-Nuts |2.252351 3.891649
-Fr.Veg |3.391385 4.880615
+Categories | 95 percent confidence interval
+Redmeat | 8.446394-11.209606
+WhiteMeat | 6.371158-9.420842
+Eggs | 2.474671-3.397329
+Milk | 14.17903-20.04497
+Fish | 2.879503-5.688497
+Cereals | 27.71783 36.77817
+Starch | 3.601483 4.950517
+Nuts | 2.252351 3.891649
+Fr.Veg | 3.391385 4.880615
 
 
